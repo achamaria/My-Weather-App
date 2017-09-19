@@ -1,7 +1,7 @@
-.home {
-  background: color($colors, primary);
-  color: color($colors, light);
-  margin-top: 30px;
+.home{
+  background:color($colors, primary);
+  color:color($colors, light);
+  margin-top:30px;
 }
 
 .toolbar-title{
@@ -9,5 +9,27 @@
 }
 
 .tabs-md .tab-button-icon{
-  color: #ccc;
+  color:#ccc;
+}
+
+.temp{
+  font-size:90px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.location,.icon, .desc{
+  text-align: center;
+}
+
+.icon img{
+  width:100px;
+}
+
+.location{
+  font-size:40px;
+}
+
+.desc{
+  font-size:30px;
 }
